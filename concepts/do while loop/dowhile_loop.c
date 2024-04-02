@@ -5,8 +5,8 @@ int main (){
     int number = 0;
     int sum = 0;
 
-    while (number > 0)
-    {
+    
+    do{
         printf("Enter a number greater than zero");
         scanf("%d", &number);
         if (number > 0)
@@ -14,6 +14,8 @@ int main (){
             sum += number;
         }
         
-    }
-    
+    } while (number > 0);
+    printf("Sum of positive numbers entered: %d\n", sum);
+
+    return 0;    
 }
