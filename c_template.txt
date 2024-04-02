@@ -1,0 +1,17 @@
+#include <stdio.h>    // Standard Input and Output
+#include <stdlib.h>   // Standard Library
+#include <string.h>   // String Handling
+#include <math.h>     // Mathematical Functions
+#include <ctype.h>    // Character Handling
+#include <time.h>     // Date and Time
+#include <errno.h>    // Error Handling
+#include <assert.h>   // Diagnostics
+#include <limits.h>   // Implementation-defined Constants
+#include <float.h>    // Implementation-defined Floating-point Constants
+#include <stdbool.h>  // Boolean type and values
+
+int main() {
+    // code goes here
+
+    return 0;
+}
