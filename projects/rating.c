@@ -2,11 +2,11 @@
 
 float calculateFIFARating(int goals, int assists, float passaccuracy, float tackleaccuracy, float dribblerate) {
 
-    float w1 = 40.0 / 100;   
-    float w2 = 30.0 / 100;   
-    float w3 = 15.0 / 100;   
+    float w1 = 25.0 / 100;   
+    float w2 = 20.0 / 100;   
+    float w3 = 30.0 / 100;   
     float w4 = 10.0 / 100;   
-    float w5 = 5.0 / 100;    
+    float w5 = 15.0 / 100;    
     
     
     float FIFARating = goals * w1 + assists * w2 + passaccuracy * w3 + tackleaccuracy * w4 + dribblerate * w5;
@@ -28,7 +28,9 @@ int main() {
     int drrible;
     int dribblesuc;
 
-    printf("What is the number of goals scored? ");
+    printf("\nONLY LAST SEASON DATA TO BE ENTERED \n");
+
+    printf("\nWhat is the number of goals scored? ");
     scanf("%d", &goals);
 
     printf("What is the number of assists provided? ");
